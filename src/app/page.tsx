@@ -37,15 +37,35 @@ function page() {
       <img src="/payung.png" alt="" className='absolute left-[-180px] h-[600px] top-280' />
       <img src="/payung.png" alt="" className='absolute right-[-180px] h-[600px] top-430 scale-x-[-1]' />
       <div>
-        <img src="/3.jpeg" alt=""  className='w-[700px]'/>
+        <img src="/7.jpeg" alt=""  className='w-auto'/>
       </div>
       <div className='grid'>
-          <img src="/logo.png" alt="" className='mt-3' />
-          <img src="/4.jpeg" alt="" className='w-full h-[300px] object-cover object-[center_45%]' />
+        <img src="/logo.png" alt="" className='mt-3' />
+        <img src="/4.jpeg" alt="" className='w-full h-[300px] object-cover object-[center_45%]' />
         <div className='max-w-[500px]'>
           <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus minus enim incidunt dicta pariatur neque cumque harum atque, eum optio.</h1>
         </div>
       </div>
+    </div>
+    <div className='flex justify-between px-30'>
+      <img src="/5.png" alt="" className='h-[600px]' />
+      <img src="/6.png" alt="" className='h-[600px]' />
+    </div>
+    <div className='px-80 py-10'>
+      <h1 className='text-center font-semibold'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores enim eveniet aliquid optio quia, omnis minima exercitationem tempora. Eligendi, corrupti.
+      </h1>
+    </div>
+    <div className='grid grid-cols-3 p-10 items-center gap-y-8'>
+      <img src="/food/food1.jpeg" alt="" className='object-cover w-[450px] h-[450px] mx-auto' />
+      <img src="/food/food2.jpeg" alt="" className='object-cover w-[450px] h-[450px] mx-auto'/>
+      <img src="/food/food3.jpeg" alt="" className='object-cover w-[450px] h-[450px] mx-auto'/>
+      <img src="/food/food4.jpeg" alt="" className='object-cover w-[450px] h-[450px] mx-auto'/>
+      <img src="/food/food5.jpeg" alt="" className='object-cover w-[450px] h-[450px] mx-auto'/>
+      <img src="/food/food6.jpeg" alt="" className='object-cover w-[450px] h-[450px] mx-auto'/>
+      <img src="/food/food7.jpeg" alt="" className='object-cover w-[450px] h-[450px] mx-auto'/>
+      <img src="/food/food8.jpeg" alt="" className='object-cover w-[450px] h-[450px] mx-auto'/>
+      <img src="/food/food9.jpeg" alt="" className='object-cover w-[450px] h-[450px] mx-auto'/>
     </div>
     </div>
   )
