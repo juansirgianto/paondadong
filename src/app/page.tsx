@@ -9,17 +9,17 @@ function page() {
         <div className='flex-1 text-center bg-[#F0C23C] p-[10px] cursor-pointer'>Reserve</div>
         <div className='flex-1 text-center bg-[#4A2B71] p-[10px] cursor-pointer'>Merchendise</div>
     </nav>
-    <div className='flex items-center px-10'>
+    <div className='flex items-center sm:px-10 px-5'>
       <h1 className='uppercase flex-1 font-bold sm:text-[150px] text-4xl sm:leading-30'>Paon <br/> Dadong</h1>
       {/* <img src="/nenk1.png" alt="" className='sm:w-[600px] w-[200px]' /> */}
       <img src="/paondadong/nenk1.png" alt="" className='sm:w-[600px] w-[200px]' />
     </div>
-    <div className="sm:h-[400px] h-[100px] bg-cover bg-top mx-10 items-center flex"
+    <div className="sm:h-[400px] h-[100px] bg-cover bg-top sm:mx-10 mx-5 items-center flex"
     // style={{ backgroundImage: "url('/1.jpeg')" }}>
     style={{ backgroundImage: "url('/paondadong/1.jpeg')" }}>
-      <h1 className='sm:text-3xl text-white italic text-center mx-auto'>&quot;Lebih dari sekadar tempat makan kami adalah rumah rasa dan cerita, dimana Bali hadir dalam setiap piring.&quot;</h1>
+      <h1 className='sm:text-3xl text-[12px] text-white italic text-center mx-auto'>&quot;Lebih dari sekadar tempat makan kami adalah rumah rasa dan cerita, dimana Bali hadir dalam setiap piring.&quot;</h1>
     </div>
-    <div className='flex p-10 justify-between items-center'>
+    <div className='flex sm:p-10 p-5 justify-between items-center'>
       <div className='max-w-[40%]'>
         <h1 className='font-semibold sm:leading-7 sm:text-base text-[8px]'>
           Paon Dadong adalah rumah makan yang kami bangun dari ingatan.<br/>
@@ -36,7 +36,7 @@ function page() {
         <img src="/paondadong/2.jpeg" alt="" className='sm:w-[400px] w-[150px]' />
       </div>
     </div>
-    <div className='flex px-10 justify-between gap-4'>
+    <div className='flex sm:px-10 px-5 justify-between gap-4'>
       {/* <img src="/payung.png" alt="" className='absolute sm:left-[-180px] sm:h-[600px] sm:top-280 h-[200px] left-[-50px] top-115' />
       <img src="/payung.png" alt="" className='absolute sm:right-0 sm:h-[450px] sm:top-460 h-[150px] right-0 top-150 scale-x-[-1]' /> */}
       <img src="/paondadong/payung.png" alt="" className='absolute sm:left-[-180px] sm:h-[600px] sm:top-280 h-[200px] left-[-50px] top-115' />
@@ -66,7 +66,7 @@ function page() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores enim eveniet aliquid optio quia, omnis minima exercitationem tempora. Eligendi, corrupti.
       </h1>
     </div>
-    <div className='grid grid-cols-3 p-10 place-items-center gap-10'>
+    <div className='grid grid-cols-3 sm:p-10 p-5 place-items-center gap-10'>
       {/* <img src="/food/food1.jpeg" alt="" className='object-cover sm:w-[450px] sm:h-[450px] w-[100px] h-[100px] m-auto' />
       <img src="/food/food2.jpeg" alt="" className='object-cover sm:w-[450px] sm:h-[450px] w-[100px] h-[100px] m-auto'/>
       <img src="/food/food3.jpeg" alt="" className='object-cover sm:w-[450px] sm:h-[450px] w-[100px] h-[100px] m-auto'/>
@@ -91,7 +91,7 @@ function page() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores enim eveniet aliquid optio quia, omnis minima exercitationem tempora. Eligendi, corrupti.
       </h1>
     </div>
-    <div className='grid sm:grid-cols-3 grid-cols-2 px-10 gap-5 place-items-center mb-10'>
+    <div className='grid sm:grid-cols-3 grid-cols-2 sm:px-10 px-5 gap-5 place-items-center mb-10'>
       <div className='flex flex-col'>
         {/* <img src="/tshirt.jpeg" alt="" className='object-cover object-top sm:w-[400px] sm:h-[500px] h-[200px] rounded-2xl m-auto' /> */}
         <img src="/paondadong/tshirt.jpeg" alt="" className='object-cover object-top sm:w-[400px] sm:h-[500px] h-[200px] rounded-2xl m-auto' />
