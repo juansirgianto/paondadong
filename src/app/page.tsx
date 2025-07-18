@@ -4,11 +4,12 @@ function page() {
   return (
     <div>
     <nav className='flex justify-center font-semibold text-white uppercase'>
-        <div className='flex-1 text-center bg-[#AED5D4] p-[10px] cursor-pointer'>About</div>
-        <div className='flex-1 text-center bg-[#D9372D] p-[10px] cursor-pointer'>Menu</div>
+        <a href="#about" className='flex-1 text-center bg-[#AED5D4] p-[10px] cursor-pointer'>About</a>
+        <a href='#menu' className='flex-1 text-center bg-[#D9372D] p-[10px] cursor-pointer'>Menu</a>
         <div className='flex-1 text-center bg-[#F0C23C] p-[10px] cursor-pointer'>Reserve</div>
-        <div className='flex-1 text-center bg-[#4A2B71] p-[10px] cursor-pointer'>Merchendise</div>
+        <a href='#merchendise' className='flex-1 text-center bg-[#4A2B71] p-[10px] cursor-pointer'>Merchendise</a>
     </nav>
+    <div id='about'>
     <div className='flex items-center sm:px-10 px-5'>
       <h1 className='uppercase flex-1 font-bold sm:text-[150px] text-4xl sm:leading-30'>Paon <br/> Dadong</h1>
       {/* <img src="/nenk1.png" alt="" className='sm:w-[600px] w-[200px]' /> */}
@@ -66,7 +67,8 @@ function page() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores enim eveniet aliquid optio quia, omnis minima exercitationem tempora. Eligendi, corrupti.
       </h1>
     </div>
-    <div className='grid grid-cols-3 sm:p-10 p-5 place-items-center gap-10'>
+    </div>
+    <div id='menu' className='grid grid-cols-3 sm:p-10 p-5 place-items-center gap-10'>
       {/* <img src="/food/food1.jpeg" alt="" className='object-cover sm:w-[450px] sm:h-[450px] w-[100px] h-[100px] m-auto' />
       <img src="/food/food2.jpeg" alt="" className='object-cover sm:w-[450px] sm:h-[450px] w-[100px] h-[100px] m-auto'/>
       <img src="/food/food3.jpeg" alt="" className='object-cover sm:w-[450px] sm:h-[450px] w-[100px] h-[100px] m-auto'/>
@@ -91,7 +93,7 @@ function page() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores enim eveniet aliquid optio quia, omnis minima exercitationem tempora. Eligendi, corrupti.
       </h1>
     </div>
-    <div className='grid sm:grid-cols-3 grid-cols-2 sm:px-10 px-5 gap-5 place-items-center mb-10'>
+    <div id='merchendise' className='grid sm:grid-cols-3 grid-cols-2 sm:px-10 px-5 gap-5 place-items-center mb-10'>
       <div className='flex flex-col'>
         {/* <img src="/tshirt.jpeg" alt="" className='object-cover object-top sm:w-[400px] sm:h-[500px] h-[200px] rounded-2xl m-auto' /> */}
         <img src="/paondadong/tshirt.jpeg" alt="" className='object-cover object-top sm:w-[400px] sm:h-[500px] h-[200px] rounded-2xl m-auto' />
