@@ -125,9 +125,9 @@ function page() {
           <h1 className='text-white sm:text-xl text-[15px]'>Produk</h1>
           <h1 className='text-white sm:text-xl text-[15px]'>Lokasi Toko</h1>
           <h1 className='text-white sm:text-xl text-[15px]'>Surat Kabar</h1>
-          <h1 className='text-white mb-2 sm:text-xl text-[15px]'>Galeri</h1>
+          <h1 className='text-white mb-5 sm:text-xl text-[15px]'>Galeri</h1>
         </div>
-          <h1 className='text-white sm:text-xl text-[15px]'>Jl. Ngagel Jaya Selatan III No.8, Pucang Sewu, Kec. Gubeng, Surabaya</h1>
+          <h1 className='text-white sm:text-xl text-[15px] sm:text-left text-center'>Jl. Ngagel Jaya Selatan III No.8, Pucang Sewu, Kec. Gubeng, Surabaya</h1>
         </div>
       </div>
     </div>
