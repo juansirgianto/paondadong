@@ -15,7 +15,7 @@ function page() {
     </div>
     <div className="h-[400px] bg-cover bg-top mx-10 items-center flex"
     style={{ backgroundImage: "url('/1.jpeg')" }}>
-      <h1 className='text-3xl text-white italic text-center mx-auto'>"Lebih dari sekadar tempat makan kami adalah rumah rasa dan cerita, dimana Bali hadir dalam setiap piring."</h1>
+      <h1 className='text-3xl text-white italic text-center mx-auto'>&quot;Lebih dari sekadar tempat makan kami adalah rumah rasa dan cerita, dimana Bali hadir dalam setiap piring.&quot;</h1>
     </div>
     <div className='flex p-10 justify-between items-center'>
       <div className='max-w-[40%]'>
