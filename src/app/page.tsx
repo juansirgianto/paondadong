@@ -52,14 +52,14 @@ function page() {
       <img src="/6.png" alt="" className='h-[600px]' />
     </div>
     <div className='px-80 py-10'>
-      <h1 className='text-center font-semibold'>
+      <h1 className='text-center text-xl font-semibold'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores enim eveniet aliquid optio quia, omnis minima exercitationem tempora. Eligendi, corrupti.
       </h1>
     </div>
-    <div className='grid grid-cols-3 p-10 items-center gap-y-8'>
-      <img src="/food/food1.jpeg" alt="" className='object-cover w-[450px] h-[450px] mx-auto' />
-      <img src="/food/food2.jpeg" alt="" className='object-cover w-[450px] h-[450px] mx-auto'/>
-      <img src="/food/food3.jpeg" alt="" className='object-cover w-[450px] h-[450px] mx-auto'/>
+    <div className='grid grid-cols-3 p-10 place-items-center gap-10'>
+      <img src="/food/food1.jpeg" alt="" className='object-cover w-[450px] h-[450px] m-auto' />
+      <img src="/food/food2.jpeg" alt="" className='object-cover w-[450px] h-[450px] m-auto'/>
+      <img src="/food/food3.jpeg" alt="" className='object-cover w-[450px] h-[450px] m-auto'/>
       <img src="/food/food4.jpeg" alt="" className='object-cover w-[450px] h-[450px] mx-auto'/>
       <img src="/food/food5.jpeg" alt="" className='object-cover w-[450px] h-[450px] mx-auto'/>
       <img src="/food/food6.jpeg" alt="" className='object-cover w-[450px] h-[450px] mx-auto'/>
@@ -67,6 +67,42 @@ function page() {
       <img src="/food/food8.jpeg" alt="" className='object-cover w-[450px] h-[450px] mx-auto'/>
       <img src="/food/food9.jpeg" alt="" className='object-cover w-[450px] h-[450px] mx-auto'/>
     </div>
+    <div className='px-80 mb-10'>
+      <h1 className='text-center text-xl font-semibold'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores enim eveniet aliquid optio quia, omnis minima exercitationem tempora. Eligendi, corrupti.
+      </h1>
+    </div>
+    <div className='grid grid-cols-3 px-10 place-items-center mb-10'>
+      <div className='flex flex-col'>
+        <img src="/tshirt.jpeg" alt="" className='object-cover object-top w-[400px] h-[500px] rounded-2xl m-auto' />
+        <h1 className='text-center font-semibold text-4xl py-5'>TSHIRT</h1>
+        <h1 className='text-center text-xl mx-7'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, doloribus!</h1>
+      </div>
+      <div className='flex flex-col'>
+        <img src="/totebag.jpeg" alt="" className='object-cover object-center w-[400px] h-[500px] rounded-2xl m-auto' />
+        <h1 className='text-center font-semibold text-4xl py-5'>TOTEBAG</h1>
+        <h1 className='text-center text-xl mx-7'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, doloribus!</h1>
+      </div>
+      <div className='flex flex-col'>
+        <img src="/shirt.jpeg" alt="" className='object-cover object-top w-[400px] h-[500px] rounded-2xl m-auto' />
+        <h1 className='text-center font-semibold text-4xl py-5'>SHIRT</h1>
+        <h1 className='text-center text-xl mx-7'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, doloribus!</h1>
+      </div>
+    </div>
+      <div className='flex bg-[#4A2B71] p-10 gap-5'>
+        <div>
+          <img src="/loc.png" alt="" className='w-[50vw]' />
+        </div>
+        <div className='flex flex-col justify-between'>
+          <h1 className='text-white text-4xl font-semibold'>FIND US</h1>
+          <h1 className='text-white text-xl'>Tentang</h1>
+          <h1 className='text-white text-xl'>Produk</h1>
+          <h1 className='text-white text-xl'>Lokasi Toko</h1>
+          <h1 className='text-white text-xl'>Surat Kabar</h1>
+          <h1 className='text-white text-xl'>Galeri</h1>
+          <h1 className='text-white text-xl '>Jl. Ngagel Jaya Selatan III No.8, Pucang Sewu, Kec. Gubeng, Surabaya</h1>
+        </div>
+      </div>
     </div>
   )
 }
